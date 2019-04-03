@@ -14,7 +14,7 @@ int sum1=0;
 int sum2=0;
 	for(int y=0; y<array.length; y++) {
 		for(int i=0; i<array[y].length; i++) {
-			System.out.print(array[y][i]+" ");
+		
 		sum+=array[0][i];
 		sum1+=array[1][i];
 		sum2+=array[2][i];
