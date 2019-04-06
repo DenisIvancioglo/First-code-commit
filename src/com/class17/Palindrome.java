@@ -5,7 +5,7 @@ public class Palindrome {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Palindrome obj=new Palindrome();
-		obj.Pal("hello");
+		obj.Pal("civic");
 		
 	}
 void Pal(String word) {
