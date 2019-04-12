@@ -19,7 +19,8 @@ public boolean pal(String name) {
 	}
 	if(name.equalsIgnoreCase(rev)) {
 		return true;
+	}else {
+	return false;
 	}
-	return true;
 }
 }

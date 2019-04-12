@@ -2,7 +2,7 @@ package com.constructor;
 
 public class Constructor {
 	String name;
-	static int a, b;
+	 int a, b;
 	
 	public int largest() {
 		if(a>b) {
@@ -11,6 +11,10 @@ public class Constructor {
 			return b;
 		}
 				
+	}
+	Constructor(String n){
+		name=n;
+		
 	}
 Constructor(int c, int d){
 	a=c;
