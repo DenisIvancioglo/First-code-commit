@@ -9,14 +9,18 @@ public class ForLoopHappyNum {
         char[] c = b.toCharArray();
         int sq = 0;
         
-        for(int i = 0; i < a; i++) {
+        for(int i = 0; i < c.length; i++) {
+        
             
-            for(int j = 0; j < 2; j++) {
-                sq = sq + Character.getNumericValue(c[j]) * Character.getNumericValue(c[j]);
-            }
+           
+                sq = sq + Character.getNumericValue(c[i]) * Character.getNumericValue(c[i]);
+                
             
             
-            System.out.println(sq);
-	}
-
+                System.out.println(sq);
+        	}  
+        		
+        	
+	
+        System.out.println(sq);
 }}
