@@ -10,7 +10,7 @@ public class ClassStudents {
 		
 		
 	}
-	ClassStudents(String n,int o, int t, int th ){
+	private ClassStudents(String n,int o, int t, int th ){
 		name=n;
 		a=o;
 		b=t;
