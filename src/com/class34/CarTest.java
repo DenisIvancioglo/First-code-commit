@@ -1,0 +1,30 @@
+package com.class34;
+
+import java.util.*;
+
+public class CarTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//Car car1=new Car("Toyota","Corolla");
+//Car car2=new Car("Honda","Accord");
+//Car car3=new Car("Lada","Priora");
+//car1.printCarDetails();
+//car2.printCarDetails();
+//car3.printCarDetails();
+
+Map<Integer,Car> carMap=new HashMap<>();
+carMap.put(1, new Car("BMW","X6"));
+carMap.put(2, new Car("Mers","Cls"));
+carMap.put(3, new Car("Honda","Accord"));
+
+Collection<Car>carValues=carMap.values();
+
+
+for(Car car:carValues) {
+	car.printCarDetails();
+}
+
+	}
+
+}
