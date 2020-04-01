@@ -4,7 +4,7 @@ public class Mul {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int a=19;
+		int a=112;
 		int temp=a;
 		int b=0;
 		int c=0;

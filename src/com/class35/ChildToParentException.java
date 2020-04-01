@@ -7,9 +7,9 @@ public class ChildToParentException {
 int[] array= {17,99,8};
 
 try {
-	System.out.println(array[3]);
+	System.out.println(array[2]);
 }catch(Exception e) {
-	
+	e.getMessage();
 }
 
 System.out.println("Code after an exception");

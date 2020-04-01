@@ -3,7 +3,7 @@ package com.class36;
 public class ThrowKeyword {
 
 	public static void main(String[] args) {
-		LargerAmount(600);
+		LargerAmount(300);
 	}
 	
 	public static void LargerAmount(int a) {

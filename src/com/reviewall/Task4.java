@@ -18,6 +18,10 @@ if(word.equalsIgnoreCase(reverse)) {
 	System.out.println("This is a palindrome");
 }else {
 	System.out.println("It is not palindrome");
+	
+	
+	
+	
 }
 
 	}

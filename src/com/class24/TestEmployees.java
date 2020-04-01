@@ -9,6 +9,7 @@ public class TestEmployees {
 		emp.getPaid();//Employee gets paid salary
 		ft.getPaid();//Full time employee gets paid salary + bonus
 		contractor.getPaid();//Contractor gets paid hourly
+		
 	}
 
 }

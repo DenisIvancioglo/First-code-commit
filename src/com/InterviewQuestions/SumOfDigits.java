@@ -1,4 +1,4 @@
-package com.reviewall;
+package com.InterviewQuestions;
 
 import java.util.Scanner;
 
@@ -26,6 +26,18 @@ public class SumOfDigits {
         System.out.println(thirdDigit);
         System.out.println(fourthDigit);
         System.out.println(remainingNumber);
+      
+            int a = 12345;
+            int b = 0;
+
+            String convert = String.valueOf(a);
+            char[] c = convert.toCharArray();
+            for (int i = 0; i < convert.length(); i++) {
+
+                 b = b + Character.getNumericValue(c[i]);
+            }
+            System.out.println(b);
+        }
 	}
 
-}
+
